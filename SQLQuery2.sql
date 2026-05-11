@@ -1,0 +1,1 @@
+SELECT EventName, Location, Price, Category, ImagePath FROM Events;

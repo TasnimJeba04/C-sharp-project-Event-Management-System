@@ -1,0 +1,134 @@
+// ============================================================
+//  Event Management System - Database Schema (dbdiagram.io)
+//  Paste this into https://dbdiagram.io/d
+// ============================================================
+
+Project EventManagementSystem {
+  database_type: 'SQL Server'
+  Note: 'Hall booking and event management application for Bangladesh.'
+}
+
+// -------------------- Roles --------------------
+Table Roles {
+  RoleID    int           [pk, increment]
+  RoleName  nvarchar(50)  [not null, unique, note: 'Customer / Admin-HallOwner / SuperAdmin']
+}
+
+// -------------------- Users --------------------
+Table Users {
+  UserID    int            [pk, increment]
+  FullName  nvarchar(100)  [not null]
+  Email     nvarchar(100)  [not null, unique]
+  Phone     nvarchar(20)
+  Password  nvarchar(100)  [not null]
+  RoleID    int            [not null, ref: > Roles.RoleID]
+  Address   nvarchar(200)
+  CreatedAt datetime       [default: `GETDATE()`]
+}
+
+// -------------------- EventTypes --------------------
+Table EventTypes {
+  EventTypeID    int           [pk, increment]
+  EventTypeName  nvarchar(50)  [not null, unique, note: 'Wedding / Birthday / Conference / Reception']
+}
+
+// -------------------- Halls --------------------
+Table Halls {
+  HallID             int            [pk, increment]
+  HallName           nvarchar(150)  [not null]
+  Location           nvarchar(150)  [not null]
+  Capacity           int            [not null, note: '> 0']
+  Price              decimal(12,2)  [not null, note: '>= 0']
+  Description        nvarchar(500)
+  AvailabilityStatus nvarchar(20)   [not null, default: 'Available', note: 'Available / Unavailable']
+  OwnerID            int            [not null, ref: > Users.UserID]
+  ImagePath          nvarchar(300)
+}
+
+// -------------------- ServiceProviders --------------------
+// (Data only - no login; managed by Admin / Super Admin)
+Table ServiceProviders {
+  ProviderID    int            [pk, increment]
+  ProviderName  nvarchar(100)  [not null]
+  ServiceType   nvarchar(50)   [not null, note: 'Decor / Catering / Photography / Stage / Planning']
+  ContactNumber nvarchar(20)
+  Email         nvarchar(100)
+  Address       nvarchar(200)
+}
+
+// -------------------- Bookings --------------------
+Table Bookings {
+  BookingID     int            [pk, increment]
+  CustomerID    int            [not null, ref: > Users.UserID]
+  HallID        int            [not null, ref: > Halls.HallID]
+  EventTypeID   int            [not null, ref: > EventTypes.EventTypeID]
+  BookingDate   date           [not null]
+  StartTime     time           [not null]
+  EndTime       time           [not null]
+  GuestCount    int            [not null, note: '> 0']
+  TotalAmount   decimal(12,2)  [not null, note: '>= 0']
+  BookingStatus nvarchar(20)   [not null, default: 'Pending', note: 'Pending / Approved / Rejected / Completed / Cancelled']
+  CreatedAt     datetime       [default: `GETDATE()`]
+}
+
+// -------------------- Payments --------------------
+Table Payments {
+  PaymentID     int            [pk, increment]
+  BookingID     int            [not null, ref: > Bookings.BookingID]
+  Amount        decimal(12,2)  [not null, note: '>= 0']
+  PaymentDate   datetime       [default: `GETDATE()`]
+  PaymentMethod nvarchar(50)   [not null, note: 'Cash / Card / bKash / Nagad / Rocket / Bank']
+  PaymentStatus nvarchar(20)   [not null, default: 'Pending', note: 'Pending / Paid / Failed / Refunded']
+}
+
+// -------------------- Reviews --------------------
+Table Reviews {
+  ReviewID    int            [pk, increment]
+  CustomerID  int            [not null, ref: > Users.UserID]
+  HallID      int            [not null, ref: > Halls.HallID]
+  Rating      int            [not null, note: '1 - 5']
+  Comment     nvarchar(500)
+  ReviewDate  datetime       [default: `GETDATE()`]
+}
+
+// -------------------- EventAssignments --------------------
+Table EventAssignments {
+  AssignmentID int           [pk, increment]
+  BookingID    int           [not null, ref: > Bookings.BookingID]
+  ProviderID   int           [not null, ref: > ServiceProviders.ProviderID]
+  AssignedDate datetime      [default: `GETDATE()`]
+  Notes        nvarchar(500)
+}
+
+// ============================================================
+//  Relationships summary (already created by inline refs above):
+//
+//  Roles            1 - M  Users
+//  Users            1 - M  Halls            (owner)
+//  Users            1 - M  Bookings         (customer)
+//  Users            1 - M  Reviews          (customer)
+//  Halls            1 - M  Bookings
+//  Halls            1 - M  Reviews
+//  EventTypes       1 - M  Bookings
+//  Bookings         1 - M  Payments
+//  Bookings         1 - M  EventAssignments
+//  ServiceProviders 1 - M  EventAssignments
+// ============================================================
+
+TableGroup Auth {
+  Roles
+  Users
+}
+
+TableGroup Catalog {
+  Halls
+  EventTypes
+  ServiceProviders
+}
+
+TableGroup Transactions {
+  Bookings
+  Payments
+  Reviews
+  EventAssignments
+}

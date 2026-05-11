@@ -1,0 +1,658 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|c:\\users\\tasni_wih4l2s\\desktop\\c#\\eventmanagementsystem\\eventmanagementsystem\\manageeventsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\manageeventsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\manageeventsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\manageeventsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\customerdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\customerdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\customerdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\customerdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\customerdashboardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\customerdashboardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\admindashboardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\admindashboardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\reviewform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\reviewform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\manageusersform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\manageusersform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\manageeventsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\manageeventsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\bookinghistoryform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\bookinghistoryform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\bookeventform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\bookeventform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\superadmindashboardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\superadmindashboardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\paymentform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\paymentform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\bookinghistoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\bookinghistoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\bookinghistoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\bookinghistoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\bookeventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\bookeventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\reviewform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\reviewform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\reviewform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\reviewform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\paymentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\paymentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\paymentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\paymentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\bookeventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\bookeventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\superadmindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\superadmindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\superadmindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\superadmindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\manageusersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\manageusersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\manageusersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\manageusersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\gradientbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\gradientbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\eventmanagementsystem\\superadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8224C279-29B4-4ECC-A11A-4EF013B531C3}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\superadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManageEventsForm.cs",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\ManageEventsForm.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\ManageEventsForm.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\ManageEventsForm.cs",
+              "RelativeToolTip": "EventManagementSystem\\ManageEventsForm.cs",
+              "ViewState": "AgIAAN0AAAAAAAAAAADwv+kAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T14:41:29.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminDashboardForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\AdminDashboardForm.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\AdminDashboardForm.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\AdminDashboardForm.cs [Design]",
+              "RelativeToolTip": "EventManagementSystem\\AdminDashboardForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T09:20:25.971Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminDashboardForm.cs",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\AdminDashboardForm.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\AdminDashboardForm.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\AdminDashboardForm.cs",
+              "RelativeToolTip": "EventManagementSystem\\AdminDashboardForm.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAwwKYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T09:20:28.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ManageEventsForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\ManageEventsForm.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\ManageEventsForm.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\ManageEventsForm.cs [Design]",
+              "RelativeToolTip": "EventManagementSystem\\ManageEventsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T14:41:28.023Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerDashboardForm.cs",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\CustomerDashboardForm.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\CustomerDashboardForm.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\CustomerDashboardForm.cs",
+              "RelativeToolTip": "EventManagementSystem\\CustomerDashboardForm.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAewOUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T19:46:20.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerDashboardForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\CustomerDashboardForm.Designer.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\CustomerDashboardForm.Designer.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\CustomerDashboardForm.Designer.cs",
+              "RelativeToolTip": "EventManagementSystem\\CustomerDashboardForm.Designer.cs",
+              "ViewState": "AgIAAOQAAAAAAAAAAAAYwMsAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T19:47:09.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerDashboardForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\CustomerDashboardForm.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\CustomerDashboardForm.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\CustomerDashboardForm.cs [Design]",
+              "RelativeToolTip": "EventManagementSystem\\CustomerDashboardForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T19:45:52.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminDashboardForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\AdminDashboardForm.Designer.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\AdminDashboardForm.Designer.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\AdminDashboardForm.Designer.cs",
+              "RelativeToolTip": "EventManagementSystem\\AdminDashboardForm.Designer.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAADwvzgBAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T09:21:28.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\Customer.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Customer.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\Customer.cs",
+              "RelativeToolTip": "EventManagementSystem\\Customer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T19:40:05.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\Admin.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Admin.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\Admin.cs",
+              "RelativeToolTip": "EventManagementSystem\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T19:39:44.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReviewForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\ReviewForm.Designer.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\ReviewForm.Designer.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\ReviewForm.Designer.cs",
+              "RelativeToolTip": "EventManagementSystem\\ReviewForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T09:40:17.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ManageUsersForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\ManageUsersForm.Designer.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\ManageUsersForm.Designer.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\ManageUsersForm.Designer.cs",
+              "RelativeToolTip": "EventManagementSystem\\ManageUsersForm.Designer.cs",
+              "ViewState": "AgIAAOgAAAAAAAAAAADwv/MAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T10:14:49.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ManageEventsForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\ManageEventsForm.Designer.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\ManageEventsForm.Designer.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\ManageEventsForm.Designer.cs",
+              "RelativeToolTip": "EventManagementSystem\\ManageEventsForm.Designer.cs",
+              "ViewState": "AgIAABMBAAAAAAAAAADwvyQBAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T14:42:21.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BookingHistoryForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\BookingHistoryForm.Designer.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\BookingHistoryForm.Designer.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\BookingHistoryForm.Designer.cs",
+              "RelativeToolTip": "EventManagementSystem\\BookingHistoryForm.Designer.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAADwv4IAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T09:41:20.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BookEventForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\BookEventForm.Designer.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\BookEventForm.Designer.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\BookEventForm.Designer.cs",
+              "RelativeToolTip": "EventManagementSystem\\BookEventForm.Designer.cs",
+              "ViewState": "AgIAAA4BAAAAAAAAAADwvxgBAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T15:13:45.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SuperAdminDashboardForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\SuperAdminDashboardForm.Designer.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\SuperAdminDashboardForm.Designer.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\SuperAdminDashboardForm.Designer.cs",
+              "RelativeToolTip": "EventManagementSystem\\SuperAdminDashboardForm.Designer.cs",
+              "ViewState": "AgIAAFEBAAAAAAAAAADwv1YBAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T09:47:44.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PaymentForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\PaymentForm.Designer.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\PaymentForm.Designer.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\PaymentForm.Designer.cs",
+              "RelativeToolTip": "EventManagementSystem\\PaymentForm.Designer.cs",
+              "ViewState": "AgIAAFEBAAAAAAAAAADwv6sBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T15:15:26.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\LoginForm.Designer.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\LoginForm.Designer.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\LoginForm.Designer.cs",
+              "RelativeToolTip": "EventManagementSystem\\LoginForm.Designer.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAADwv3wAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T20:06:03.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BookingHistoryForm.cs",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\BookingHistoryForm.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\BookingHistoryForm.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\BookingHistoryForm.cs",
+              "RelativeToolTip": "EventManagementSystem\\BookingHistoryForm.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAADwv28AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T09:41:08.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BookingHistoryForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\BookingHistoryForm.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\BookingHistoryForm.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\BookingHistoryForm.cs [Design]",
+              "RelativeToolTip": "EventManagementSystem\\BookingHistoryForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T09:41:07.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BookEventForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\BookEventForm.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\BookEventForm.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\BookEventForm.cs [Design]",
+              "RelativeToolTip": "EventManagementSystem\\BookEventForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T15:13:28.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ReviewForm.cs",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\ReviewForm.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\ReviewForm.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\ReviewForm.cs",
+              "RelativeToolTip": "EventManagementSystem\\ReviewForm.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAwwHQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T09:39:56.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ReviewForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\ReviewForm.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\ReviewForm.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\ReviewForm.cs [Design]",
+              "RelativeToolTip": "EventManagementSystem\\ReviewForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T09:39:54.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PaymentForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\PaymentForm.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\PaymentForm.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\PaymentForm.cs [Design]",
+              "RelativeToolTip": "EventManagementSystem\\PaymentForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T15:15:00.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\Program.cs",
+              "RelativeToolTip": "EventManagementSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T20:06:35.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PaymentForm.cs",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\PaymentForm.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\PaymentForm.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\PaymentForm.cs",
+              "RelativeToolTip": "EventManagementSystem\\PaymentForm.cs",
+              "ViewState": "AgIAANsAAAAAAAAAAAAqwOgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T15:15:01.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BookEventForm.cs",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\BookEventForm.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\BookEventForm.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\BookEventForm.cs",
+              "RelativeToolTip": "EventManagementSystem\\BookEventForm.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAADwv6sAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T15:12:55.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SuperAdminDashboardForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\SuperAdminDashboardForm.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\SuperAdminDashboardForm.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\SuperAdminDashboardForm.cs [Design]",
+              "RelativeToolTip": "EventManagementSystem\\SuperAdminDashboardForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T09:47:13.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SuperAdminDashboardForm.cs",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\SuperAdminDashboardForm.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\SuperAdminDashboardForm.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\SuperAdminDashboardForm.cs",
+              "RelativeToolTip": "EventManagementSystem\\SuperAdminDashboardForm.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAewGkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T09:47:04.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ManageUsersForm.cs",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\ManageUsersForm.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\ManageUsersForm.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\ManageUsersForm.cs",
+              "RelativeToolTip": "EventManagementSystem\\ManageUsersForm.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAADwv58AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T10:14:24.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ManageUsersForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\ManageUsersForm.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\ManageUsersForm.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\ManageUsersForm.cs [Design]",
+              "RelativeToolTip": "EventManagementSystem\\ManageUsersForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T10:14:32.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RegisterForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\RegisterForm.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\RegisterForm.cs [Design]",
+              "RelativeToolTip": "EventManagementSystem\\RegisterForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T17:50:28.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RegisterForm.cs",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\RegisterForm.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\RegisterForm.cs",
+              "RelativeToolTip": "EventManagementSystem\\RegisterForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T18:16:56.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RegisterForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\RegisterForm.Designer.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\RegisterForm.Designer.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\RegisterForm.Designer.cs",
+              "RelativeToolTip": "EventManagementSystem\\RegisterForm.Designer.cs",
+              "ViewState": "AgIAANwAAAAAAAAAAADwv/QAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T17:50:33.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\LoginForm.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\LoginForm.cs",
+              "RelativeToolTip": "EventManagementSystem\\LoginForm.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAjwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T20:04:35.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\LoginForm.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\LoginForm.cs [Design]",
+              "RelativeToolTip": "EventManagementSystem\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T20:05:53.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "GradientButton.cs",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\GradientButton.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\GradientButton.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\GradientButton.cs",
+              "RelativeToolTip": "EventManagementSystem\\GradientButton.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAUwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T08:37:17.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DatabaseConnection.cs",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\DatabaseConnection.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\DatabaseConnection.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\DatabaseConnection.cs",
+              "RelativeToolTip": "EventManagementSystem\\DatabaseConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T19:28:59.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\User.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\User.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\User.cs",
+              "RelativeToolTip": "EventManagementSystem\\User.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAYwFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T19:39:04.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "SuperAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\SuperAdmin.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\SuperAdmin.cs",
+              "ToolTip": "C:\\Users\\tasni_wih4l2s\\Desktop\\C#\\EventManagementSystem\\EventManagementSystem\\SuperAdmin.cs",
+              "RelativeToolTip": "EventManagementSystem\\SuperAdmin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T19:39:26.721Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

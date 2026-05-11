@@ -1,0 +1,76 @@
+====================================
+    BANGLADESH EVENT HALLS
+       PAYMENT RECEIPT
+====================================
+
+Receipt Date:
+2026-05-05 11:27
+
+Booking ID:
+#4001
+
+------------------------------------
+    CUSTOMER INFORMATION
+------------------------------------
+
+Name:
+JEBA
+
+Email:
+tasnimjeba@event.com
+
+Phone:
+01648391384
+
+------------------------------------
+    BOOKING INFORMATION
+------------------------------------
+
+Hall Name:
+Police Convention Hall
+
+Location:
+Eskaton, Dhaka
+
+Event Date:
+2026-05-05
+
+Time:
+20:26 - 01:26
+
+Event Type:
+Wedding
+
+Guest Count:
+150
+
+Special Request:
+-
+
+------------------------------------
+    PAYMENT INFORMATION
+------------------------------------
+
+Subtotal:
+BDT 90,000
+
+Coupon Code:
+BD25
+
+Discount:
+-BDT 22,500 (25.00%)
+
+TOTAL PAID:
+BDT 67,500
+
+Payment Method:
+Mastercard
+
+Status:
+CONFIRMED
+
+====================================
+Thank you for booking with us!
+Please show this receipt at
+the hall on event day.
+====================================

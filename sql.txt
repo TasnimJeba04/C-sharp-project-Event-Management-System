@@ -1,0 +1,223 @@
+-- =============================================================
+-- Event Management System :: Complete Database Backup
+-- Course   : Object Oriented Programming - 2 (CSC2210)
+-- Project  : Event Management System (C# Windows Forms + SQL Server)
+--
+-- HOW TO USE THIS FILE
+-- 1) Open SQL Server Management Studio (SSMS) and connect to:
+--      Server name: (localdb)\MSSQLLocalDB
+--      Authentication: Windows Authentication
+-- 2) In SSMS click "New Query" and paste this whole file.
+-- 3) Press F5 (Execute). The database "EventManagementDB" will
+--    be created with every table and sample data needed to run
+--    the project on a fresh machine.
+-- =============================================================
+
+-- -------------------------------------------------------------
+-- 0. Create database (skip if it already exists)
+-- -------------------------------------------------------------
+IF DB_ID('EventManagementDB') IS NULL
+BEGIN
+    CREATE DATABASE EventManagementDB;
+END
+GO
+
+USE EventManagementDB;
+GO
+
+-- -------------------------------------------------------------
+-- Drop tables in correct order so the script is re-runnable
+-- -------------------------------------------------------------
+IF OBJECT_ID('Reviews',  'U') IS NOT NULL DROP TABLE Reviews;
+IF OBJECT_ID('Payments', 'U') IS NOT NULL DROP TABLE Payments;
+IF OBJECT_ID('Bookings', 'U') IS NOT NULL DROP TABLE Bookings;
+IF OBJECT_ID('Discounts','U') IS NOT NULL DROP TABLE Discounts;
+IF OBJECT_ID('Events',   'U') IS NOT NULL DROP TABLE Events;
+IF OBJECT_ID('Users',    'U') IS NOT NULL DROP TABLE Users;
+GO
+
+-- =============================================================
+-- 1. USERS  (SuperAdmin / Admin / Customer)
+-- =============================================================
+CREATE TABLE Users (
+    UserID       INT IDENTITY(1,1) PRIMARY KEY,
+    FullName     NVARCHAR(100) NOT NULL,
+    Email        NVARCHAR(100) NOT NULL UNIQUE,
+    Password     NVARCHAR(100) NOT NULL,
+    Phone        NVARCHAR(20)  NULL,
+    UserType     NVARCHAR(20)  NOT NULL CHECK (UserType IN ('SuperAdmin','Admin','Customer')),
+    CreatedDate  DATETIME      NOT NULL DEFAULT GETDATE()
+);
+GO
+
+-- =============================================================
+-- 2. EVENTS  (a.k.a. Halls; created by an Admin/Hall Owner)
+-- =============================================================
+CREATE TABLE Events (
+    EventID              INT IDENTITY(1,1) PRIMARY KEY,
+    EventName            NVARCHAR(200) NOT NULL,
+    Description          NVARCHAR(500) NULL,
+    EventDate            DATETIME      NOT NULL,
+    Location             NVARCHAR(200) NOT NULL,
+    Price                DECIMAL(10,2) NOT NULL CHECK (Price >= 0),
+    AvailableSeats       INT           NOT NULL CHECK (AvailableSeats >= 0),
+    Category             NVARCHAR(50)  NULL,
+    OrganizerID          INT           NOT NULL,
+    ImagePath            NVARCHAR(300) NULL,
+    SupportedEventTypes  NVARCHAR(500) NULL,
+    CONSTRAINT FK_Events_Organizer FOREIGN KEY (OrganizerID)
+        REFERENCES Users(UserID)
+);
+GO
+
+-- =============================================================
+-- 3. DISCOUNTS / COUPONS
+-- =============================================================
+CREATE TABLE Discounts (
+    DiscountID       INT IDENTITY(1,1) PRIMARY KEY,
+    CouponCode       NVARCHAR(50)  NOT NULL UNIQUE,
+    DiscountPercent  DECIMAL(5,2)  NOT NULL CHECK (DiscountPercent BETWEEN 0 AND 100),
+    ExpiryDate       DATETIME      NOT NULL,
+    IsActive         BIT           NOT NULL DEFAULT 1
+);
+GO
+
+-- =============================================================
+-- 4. BOOKINGS  (one customer books one hall, optional coupon)
+-- =============================================================
+CREATE TABLE Bookings (
+    BookingID        INT IDENTITY(1,1) PRIMARY KEY,
+    CustomerID       INT           NOT NULL,
+    EventID          INT           NOT NULL,
+    NumberOfTickets  INT           NOT NULL CHECK (NumberOfTickets > 0),
+    TotalAmount      DECIMAL(10,2) NOT NULL,
+    DiscountID       INT           NULL,
+    BookingDate      DATETIME      NOT NULL DEFAULT GETDATE(),
+    Status           NVARCHAR(20)  NOT NULL DEFAULT 'Pending'
+                       CHECK (Status IN ('Pending','Confirmed','Cancelled')),
+    PreferredDate    DATETIME      NULL,
+    StartTime        NVARCHAR(20)  NULL,
+    EndTime          NVARCHAR(20)  NULL,
+    EventType        NVARCHAR(50)  NULL,
+    ContactPhone     NVARCHAR(20)  NULL,
+    SpecialRequest   NVARCHAR(500) NULL,
+    CONSTRAINT FK_Bookings_Customer FOREIGN KEY (CustomerID) REFERENCES Users(UserID),
+    CONSTRAINT FK_Bookings_Event    FOREIGN KEY (EventID)    REFERENCES Events(EventID),
+    CONSTRAINT FK_Bookings_Discount FOREIGN KEY (DiscountID) REFERENCES Discounts(DiscountID)
+);
+GO
+
+-- =============================================================
+-- 5. PAYMENTS  (one payment per booking)
+-- =============================================================
+CREATE TABLE Payments (
+    PaymentID      INT IDENTITY(1,1) PRIMARY KEY,
+    BookingID      INT           NOT NULL,
+    Amount         DECIMAL(10,2) NOT NULL,
+    PaymentMethod  NVARCHAR(50)  NOT NULL,
+    PaymentDate    DATETIME      NOT NULL DEFAULT GETDATE(),
+    PaymentStatus  NVARCHAR(20)  NOT NULL DEFAULT 'Paid'
+                     CHECK (PaymentStatus IN ('Paid','Failed','Refunded')),
+    CONSTRAINT FK_Payments_Booking FOREIGN KEY (BookingID) REFERENCES Bookings(BookingID)
+);
+GO
+
+-- =============================================================
+-- 6. REVIEWS  (customer leaves rating + comment)
+-- =============================================================
+CREATE TABLE Reviews (
+    ReviewID    INT IDENTITY(1,1) PRIMARY KEY,
+    CustomerID  INT           NOT NULL,
+    EventID     INT           NOT NULL,
+    Rating      INT           NOT NULL CHECK (Rating BETWEEN 1 AND 5),
+    Comment     NVARCHAR(500) NULL,
+    ReviewDate  DATETIME      NOT NULL DEFAULT GETDATE(),
+    CONSTRAINT FK_Reviews_Customer FOREIGN KEY (CustomerID) REFERENCES Users(UserID),
+    CONSTRAINT FK_Reviews_Event    FOREIGN KEY (EventID)    REFERENCES Events(EventID)
+);
+GO
+
+PRINT 'All tables created successfully.';
+GO
+
+-- =============================================================
+-- SAMPLE DATA
+-- =============================================================
+
+-- ----- USERS -----
+INSERT INTO Users (FullName, Email, Password, Phone, UserType) VALUES
+('System Owner',     'super@event.com',    'super123', '01700000000', 'SuperAdmin'),
+('Rahim Organizer',  'admin@event.com',    'admin123', '01711111111', 'Admin'),
+('Karim Organizer',  'admin2@event.com',   'admin123', '01722222222', 'Admin'),
+('Azmain Customer',  'customer@event.com', 'cust123',  '01733333333', 'Customer'),
+('Nabila Customer',  'nabila@event.com',   'cust123',  '01744444444', 'Customer'),
+('Sadia Customer',   'sadia@event.com',    'cust123',  '01755555555', 'Customer');
+GO
+
+-- ----- EVENTS / HALLS (BD-themed) -----
+INSERT INTO Events
+(EventName, Description, EventDate, Location, Price, AvailableSeats, Category, OrganizerID, ImagePath, SupportedEventTypes)
+VALUES
+('Sena Kunjo',                                  'Premium military hall, perfect for grand weddings.',         '2026-06-15 18:00', 'Dhaka Cantonment',   150000.00,  800, 'Wedding',              2, 'Images/sena_kunjo.jpg',         'Wedding,Engagement'),
+('Army Golf Club',                              'Elegant club venue with garden setting.',                    '2026-06-20 17:00', 'Kurmitola',          120000.00,  500, 'Wedding',              2, 'Images/army_golf_club.jpg',     'Wedding,Seminar,Corporate Conference'),
+('Sena Malancha',                               'Spacious banquet hall with full service.',                   '2026-07-04 18:00', 'Dhaka Cantonment',   100000.00,  600, 'Wedding',              2, 'Images/sena_malancha.jpg',      'Wedding,Engagement'),
+('Dhaka Club',                                  'Heritage club, ideal for engagements and anniversaries.',    '2026-07-10 19:00', 'Ramna, Dhaka',        80000.00,  300, 'Engagement',           3, 'Images/dhaka_club.jpg',         'Wedding,Birthday,Seminar,Corporate Conference,Engagement'),
+('Police Convention Hall',                      'Modern convention hall with AV facilities.',                 '2026-08-05 10:00', 'Eskaton, Dhaka',      90000.00,  700, 'Corporate Conference', 3, 'Images/police_convention.jpg',  'Wedding'),
+('RAOWA Convention Hall',                       'Prestigious venue for corporate and family events.',         '2026-08-15 17:00', 'Mohakhali, Dhaka',   110000.00,  600, 'Corporate Conference', 2, 'Images/raowa.jpg',              'Wedding,Birthday'),
+('International Convention City Bashundhara',   'Largest convention center for big events.',                  '2026-09-01 09:00', 'Bashundhara, Dhaka', 250000.00, 2000, 'Seminar',              3, 'Images/iccb.jpg',               'Wedding,Seminar,Corporate Conference'),
+('Bangabandhu International Conference Center', 'National-level conference and seminar venue.',               '2026-09-10 09:00', 'Agargaon, Dhaka',    300000.00, 1500, 'Seminar',              2, 'Images/bicc.jpg',               'Wedding,Seminar,Corporate Conference'),
+('Officers Club Dhaka',                         'Sophisticated club for birthdays and family gatherings.',    '2026-09-20 18:00', 'Baridhara, Dhaka',    70000.00,  250, 'Birthday',             3, 'Images/officers_club.jpg',      'Wedding,Birthday'),
+('Ladies Club Dhaka',                           'Charming venue for cultural programs and graduations.',      '2026-10-01 17:00', 'Eskaton, Dhaka',      60000.00,  200, 'Cultural Program',     2, 'Images/ladies_club.jpg',        'Wedding,Birthday,Cultural Program');
+GO
+
+-- ----- DISCOUNTS / COUPONS -----
+INSERT INTO Discounts (CouponCode, DiscountPercent, ExpiryDate, IsActive) VALUES
+('NEW10',    10.00, '2026-12-31', 1),
+('SUMMER20', 20.00, '2026-09-30', 1),
+('VIP30',    30.00, '2026-12-31', 1),
+('BD25',     25.00, '2026-12-31', 1),
+('OLD50',    50.00, '2024-01-01', 0);
+GO
+
+-- ----- BOOKINGS -----
+INSERT INTO Bookings
+(CustomerID, EventID, NumberOfTickets, TotalAmount, DiscountID, BookingDate, Status,
+ PreferredDate, StartTime, EndTime, EventType, ContactPhone, SpecialRequest) VALUES
+(4, 1, 300, 135000.00, 1, '2026-04-10', 'Confirmed', '2026-06-15', '06:00 PM', '11:00 PM', 'Wedding',              '01733333333', 'Need stage decoration in red and gold theme.'),
+(4, 4, 150,  72000.00, NULL, '2026-04-15', 'Confirmed', '2026-07-10', '07:00 PM', '10:00 PM', 'Engagement',           '01733333333', 'Vegetarian menu only.'),
+(5, 7, 800, 200000.00, 2, '2026-04-18', 'Confirmed', '2026-09-01', '09:00 AM', '06:00 PM', 'Corporate Conference', '01744444444', 'Projector and AV system required.'),
+(6, 9, 100,  70000.00, NULL, '2026-04-20', 'Pending',   '2026-09-20', '06:00 PM', '11:00 PM', 'Birthday',             '01755555555', 'Birthday cake and balloon decoration.');
+GO
+
+-- ----- PAYMENTS -----
+INSERT INTO Payments (BookingID, Amount, PaymentMethod, PaymentStatus) VALUES
+(1, 135000.00, 'bKash',       'Paid'),
+(2,  72000.00, 'Visa',        'Paid'),
+(3, 200000.00, 'Nagad',       'Paid');
+GO
+
+-- ----- REVIEWS -----
+INSERT INTO Reviews (CustomerID, EventID, Rating, Comment) VALUES
+(4, 1, 5, 'Beautiful hall and amazing service. Highly recommended!'),
+(5, 7, 4, 'Great venue for corporate events, slight delay in setup.'),
+(4, 4, 5, 'Loved the heritage feel. Perfect for an engagement.');
+GO
+
+PRINT 'Sample data inserted successfully.';
+PRINT '=============================================================';
+PRINT 'Database EventManagementDB is ready to use.';
+PRINT 'Connection string used by the C# project:';
+PRINT '   Server=(localdb)\MSSQLLocalDB;Database=EventManagementDB;Integrated Security=True;';
+PRINT '=============================================================';
+GO
+
+-- =============================================================
+-- DEFAULT LOGIN CREDENTIALS (for graders)
+-- =============================================================
+--   Super Admin :  super@event.com    /  super123
+--   Admin       :  admin@event.com    /  admin123
+--   Admin (2)   :  admin2@event.com   /  admin123
+--   Customer    :  customer@event.com /  cust123
+--   Customer    :  nabila@event.com   /  cust123
+--   Customer    :  sadia@event.com    /  cust123
+-- =============================================================
